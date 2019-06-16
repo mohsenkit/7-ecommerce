@@ -1,0 +1,40 @@
+@font-face{
+    font-family: MyBYekan;
+    src: url("../fonts/Yekan.eot") format("eot"),
+    url("../fonts/Yekan.woff") format("woff"),
+    url("../fonts/Yekan.ttf") format("truetype");
+}
+
+/* General Styles */
+.clear{
+    clear: both;
+}
+
+a{
+    color: #0288d1;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #01579b;
+}
+
+body{
+    font-family: MyBYekan ,sans-serif;
+    font-size: 12px;
+    background: #c5c5c5;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
