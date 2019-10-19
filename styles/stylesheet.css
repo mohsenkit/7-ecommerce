@@ -23,11 +23,11 @@ a:hover{
 
 body{
     font-family: MyBYekan ,sans-serif;
-    font-size: 12px;
-    background: #c5c5c5;
+    font-size: 14px;
+
     text-align: center;
     width: 100%;
-    margin: 0px;
+    margin: 0;
 }
 
 h1,h2,h3,h4,h5{
@@ -57,14 +57,40 @@ h1,h2,h3,h4,h5{
 }
 
 #nav .right{
-float: right;
+    float: right;
+
+}
+
+#nav .right ul li{
+    margin-left: 10px;
 }
 
 #nav .left{
     float: left;
 }
 
+#nav .left ul li{
+    margin: 0 10px;
+}
+
+#header .logo{
+    float: right;
+}
+
+#header .logo img{
+    width: 230px;
+    margin: 10px;
+}
+
+#header .searchBox{
+    float: left;
+}
+
+#mainSlider img{
+    width: 100%;
+}
+
 .container{
     direction: rtl;
-    margin: auto;
+    margin: 0 100px;
 }
