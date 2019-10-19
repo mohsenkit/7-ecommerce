@@ -14,7 +14,6 @@
 }
 
 a{
-    color: #0288d1;
     text-decoration: none;
 }
 
@@ -31,17 +30,41 @@ body{
     margin: 0px;
 }
 
-ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
 h1,h2,h3,h4,h5{
     margin: 0;
     padding: 0;
 }
 
+#nav{
+    background: #1565c0;
+    color: #fff;
+}
+
+#nav .nav{
+    padding: 10px;
+}
+
+#nav ul li{
+    display: inline-block;
+}
+
+#nav ul li a{
+    color: #fff;
+}
+
+#nav ul li a:hover{
+     color: #d8d8d8;
+}
+
+#nav .right{
+float: right;
+}
+
+#nav .left{
+    float: left;
+}
+
 .container{
     direction: rtl;
+    margin: auto;
 }
