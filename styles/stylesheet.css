@@ -30,6 +30,11 @@ body{
     margin: 0;
 }
 
+input,button{
+    font-family: MyBYekan ,sans-serif;
+    font-size: 14px;
+}
+
 h1,h2,h3,h4,h5{
     margin: 0;
     padding: 0;
@@ -82,8 +87,20 @@ h1,h2,h3,h4,h5{
     margin: 10px;
 }
 
-#header .searchBox{
+.searchBox{
     float: left;
+    margin-top: 10px;
+}
+
+.searchBox input{
+    width: 300px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #f0f0f0;
+    border:none;
+    border-radius: 0 5px 5px 0;
+    margin-left: 0;
+    padding: 8px;
 }
 
 #mainSlider img{
@@ -94,3 +111,4 @@ h1,h2,h3,h4,h5{
     direction: rtl;
     margin: 0 100px;
 }
+
