@@ -97,10 +97,23 @@ h1,h2,h3,h4,h5{
     font-weight: bold;
     font-size: 15px;
     background-color: #f0f0f0;
-    border:none;
-    border-radius: 0 5px 5px 0;
+    border: none;
+    border-radius: 1px 5px 5px 0;
     margin-left: 0;
-    padding: 8px;
+    padding: 9px 15px 10px 5px;
+    position: relative;
+    top: -2px;
+}
+
+
+.searchBox button{
+    background: #39cc39;
+    border: none;
+    color: white;
+    padding: 4px 15px 5px 15px;
+    border-radius: 5px 0 0 5px;
+    font-size: 20px;
+    margin-right: -2px;
 }
 
 #mainSlider img{
