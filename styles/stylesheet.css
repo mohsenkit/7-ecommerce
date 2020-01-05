@@ -13,6 +13,13 @@
     clear: both;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 a{
     text-decoration: none;
 }
@@ -47,6 +54,7 @@ h1,h2,h3,h4,h5{
 
 #nav .nav{
     padding: 10px;
+    font-size: 16px;
 }
 
 #nav ul li{
@@ -78,21 +86,25 @@ h1,h2,h3,h4,h5{
     margin: 0 10px;
 }
 
+#header{
+    padding: 25px;
+}
+
 #header .logo{
     float: right;
 }
 
 #header .logo img{
-    width: 230px;
-    margin: 10px;
+    width: 70px;
+    vertical-align: center;
 }
 
-.searchBox{
+#header .searchBox{
     float: left;
-    margin-top: 10px;
+    vertical-align: center;
 }
 
-.searchBox input{
+#header .searchBox input{
     width: 300px;
     font-weight: bold;
     font-size: 15px;
@@ -105,8 +117,7 @@ h1,h2,h3,h4,h5{
     top: -2px;
 }
 
-
-.searchBox button{
+#header .searchBox button{
     background: #39cc39;
     border: none;
     color: white;
@@ -125,3 +136,68 @@ h1,h2,h3,h4,h5{
     margin: 0 100px;
 }
 
+#about {
+
+    background: #01579b;
+}
+
+#about ul li{
+    display: inline-block;
+    width: 25%;
+    background: #1565c0;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 1vw;
+}
+
+
+#about ul li i{
+    font-size: 5vw;
+    color: #ffffff;
+    float: right;
+}
+
+#about ul li h3{
+    font-size: 2vw;
+    color: #ffffff;
+    margin-bottom: 1vw;
+}
+
+#about ul li p{
+    font-size: 1vw;
+    color: #ffffff;
+
+}
+
+/* Product Section */
+.container.products-section .header{
+    margin-top: 20px;
+}
+
+.container.products-section .header ul{
+    background: #1565c0;
+
+
+}
+
+.container.products-section .header ul li{
+    display: inline-block;
+    padding: 1vw;
+}
+
+.container.products-section .header ul li.active{
+    background: #ffffff;
+}
+
+.container.products-section .header ul li.active a{
+
+    color: #000000;
+
+}
+
+.container.products-section .header ul li a{
+    color: #ffffff;
+
+    font-size: 1.3vw;
+
+}
