@@ -105,7 +105,10 @@
       <workItem from="1578116515880" duration="3905000" />
       <workItem from="1578218912686" duration="2369000" />
       <workItem from="1578329846440" duration="5176000" />
-      <workItem from="1578412924087" duration="290000" />
+      <workItem from="1578412924087" duration="731000" />
+      <workItem from="1578413679157" duration="725000" />
+      <workItem from="1578425493964" duration="1040000" />
+      <workItem from="1578462566330" duration="1713000" />
     </task>
     <task id="LOCAL-00001" summary="20190630">
       <created>1561917027866</created>
@@ -144,7 +147,25 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۶" />
       <updated>1578341002789</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎۰۰۰۰۷" summary="20200106">
+      <created>1578413521228</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۷" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۷" />
+      <updated>1578413521228</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۸" summary="20200106">
+      <created>1578462711983</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۸" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۸" />
+      <updated>1578462711983</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۹" summary="20200106&#10;test1">
+      <created>1578463345349</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۹" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۹" />
+      <updated>1578463345349</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +204,8 @@
     <MESSAGE value="20191224" />
     <MESSAGE value="20200105" />
     <MESSAGE value="20200106" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200106" />
+    <MESSAGE value="20200106&#10;test1" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200106&#10;test1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#Deployment" timestamp="1578236411509">
@@ -198,10 +220,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="91" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1577999796959" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1578413391238">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1578463344536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578413391238" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578463344536" />
     <state x="92" y="92" width="1182" height="544" key="DirDiffDialog" timestamp="1578341276137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -218,10 +240,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="545" y="262" key="WebDeployment.AddServerDialog.v.1/0.0.1366.728@0.0.1366.728" timestamp="1577999541243" />
-    <state x="384" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1578412924395">
+    <state x="384" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1578425212535">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578412924395" />
+    <state x="384" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578425212535" />
     <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577899580688">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -238,5 +260,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="553" y="256" key="publish.login/0.0.1366.728@0.0.1366.728" timestamp="1578032393728" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1578463461658">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1578463461658" />
   </component>
 </project>
