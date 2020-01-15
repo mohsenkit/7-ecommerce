@@ -199,15 +199,18 @@ h1,h2,h3,h4,h5{
 }
 
 .products-section .products ul li{
-    width: 30%;
+    width: 32%;
     display: inline-block;
-    margin: 1vw;
+    margin: .5vw;
     padding: 0.3vw;
     background: #f0f0f0;
+    box-sizing: border-box;
 }
 
 .products-section .products ul li img{
-    width: 90%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1vw;
 }
 
 .products-section .products ul li h2{
@@ -215,6 +218,7 @@ h1,h2,h3,h4,h5{
     text-align: right;
     line-height: 3vw;
     margin: 0.5vw;
+
 }
 
 .products-section .products ul li .price{
@@ -236,12 +240,28 @@ h1,h2,h3,h4,h5{
 .products-section .products .addToCart{
     background: #00be04;
     width: 100%;
-    padding: 2vw 0;
+    padding: 2vw;
     margin-top: 1vw;
+    box-sizing: border-box;
 }
 
 .products-section .products a{
     font-size: 1.5vw;
     font-weight: bold;
     color: #ffffff;
+    /*noinspection CssUnresolvedCustomProperty*/
+    font-family: var(--font),arial,sans-serif !important;
+}
+.bottom_header p{
+    background: #1565c0;
+    color: #ffffff;
+    padding: 1vw;
+    font-size: 1.3vw;
+    margin: 10px 0 0 0;
+}
+
+/* telegram section */
+
+#telegramSection{
+    background: #ececec;
 }
